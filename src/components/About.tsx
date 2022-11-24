@@ -1,6 +1,6 @@
 import React from 'react';
 import Sphere from '../assets/images/about-sphere.svg';
-import Innovation from '../assets/images/about-innovation.png';
+import Innovation from '../assets/images/about-innovation.webp';
 const About = () => {
   return (
     <section className='about-container'>
