@@ -1,8 +1,8 @@
-<img src='./src/assets/icons/logo.svg' />
+# <img src='./src/assets/icons/logo.svg' />
 
 <h2>The landing page of an application that empowers designers and developers to build immersive AR/VR websites in a completely visual canvas - no coding needed.</h2>
 
-<h2>Deployed at (https://webbshift.netlify.app/)</h2>
+<h2>Deployed at (https://webbshift-task.netlify.app/)</h2>
 
 ## Built with
 
@@ -29,10 +29,36 @@
     - style.scss
   - App.tsx
 
-## To test locally
+## Run Locally
 
-- Clone
-  <p>In the project directory, you can run:</p>
-- `yarn` to install dependencies.
-- `yarn start` to start application.
-  <p>Open [http://localhost:3000](http://localhost:3000) to view it in the browser.</p>
+Clone the project
+
+```bash
+  git clone git@github.com:sirsuccess/outliant-test.git
+```
+
+Go to the project directory
+
+```bash
+  cd outliant-test
+```
+
+Install dependencies
+
+```bash
+  npm install || yarn install
+```
+
+Start the application
+
+```bash
+  npm run start || yarn start
+```
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Performance test from `https://pagespeed.web.dev/`
+### Mobile test:
+<img src='./src/assets/images/mobile.png' />
+
+### Desktop test:
+<img src='./src/assets/images/desktop.png' />

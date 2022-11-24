@@ -87,6 +87,9 @@
         border: none;
         place-self: center;
         border-left: 1px solid colors.$white;
+        &:hover{
+          color: colors.$yellow;
+        }
       }
     }
   }
