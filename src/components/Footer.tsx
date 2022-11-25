@@ -50,9 +50,9 @@ const Footer = () => {
         <span className="">{errors.email && errors.email.message}</span>
       </form>
 
-      <p className="copyright" data-aos="fade-up" data-aos-duration="1000">Copyright 2022 Webshift. All Rights Reserved</p>
+      <p className="copyright" >Copyright 2022 Webshift. All Rights Reserved</p>
 
-      <div className="navigations" data-aos="fade-up" data-aos-duration="1000">
+      <div className="navigations">
         <a href="/">Terms of Service</a>
         <a href="/">Privacy Policy</a>
         <a href="/">Cookie Policy</a>
