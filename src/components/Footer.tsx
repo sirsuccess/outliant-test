@@ -29,9 +29,9 @@ const Footer = () => {
   return (
     <footer className="footer-container">
       <a href="/" className="logo">
-        <img src={Logo} alt=" webshift" className="l" />
+        <img src={Logo} alt=" webshift logo" className="l" data-aos="fade-up" data-aos-duration="1000"/>
       </a>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form onSubmit={handleSubmit(onSubmit)} data-aos="fade-up" data-aos-duration="1000" >
         <div className="form-container">
           <input
             type="email"
@@ -50,9 +50,9 @@ const Footer = () => {
         <span className="">{errors.email && errors.email.message}</span>
       </form>
 
-      <p className="copyright">Copyright 2022 Webshift. All Rights Reserved</p>
+      <p className="copyright" data-aos="fade-up" data-aos-duration="1000">Copyright 2022 Webshift. All Rights Reserved</p>
 
-      <div className="navigations">
+      <div className="navigations" data-aos="fade-up" data-aos-duration="1000">
         <a href="/">Terms of Service</a>
         <a href="/">Privacy Policy</a>
         <a href="/">Cookie Policy</a>
